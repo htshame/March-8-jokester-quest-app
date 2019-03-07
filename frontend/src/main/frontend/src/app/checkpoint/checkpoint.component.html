@@ -1,0 +1,24 @@
+<div align="center">
+    <div class="c-view">
+        <h3>{{task}}</h3>
+    </div>
+    <div *ngIf="!isLast">
+        <div class="c-label-div">
+            <input class="c-input" placeholder="Пароль:" [(ngModel)]='checkpointCode'>
+        </div>
+        <button class="c-submit-password-button" (click)="nextStep()">Проверить пароль</button>
+    </div>
+    <div *ngIf="isLast">
+        <div class="pyro">
+            <div class="before"></div>
+            <div class="after"></div>
+        </div>
+    </div>
+</div>
+
+<div class="c-back-div" align="left">
+    <button class="с-go-back-button" (click)="back()">Не хочу! Не буду!</button>
+    <button class="с-i-will-button" (click)="iWill()">Хочу! Буду!</button>
+</div>
+
+<div class="c-footer"></div>

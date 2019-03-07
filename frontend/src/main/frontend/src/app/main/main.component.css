@@ -1,0 +1,66 @@
+.m-view p {
+    font-size: 30px;
+    cursor: default;
+    font-weight: 600;
+}
+
+.m-underline {
+    text-decoration: underline;
+}
+
+.m-help-div {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.m-help-div span {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main-button {
+    height: 60px;
+    font-size: 40px;
+}
+
+.m-help {
+    float: left;
+    text-align: left;
+    cursor: default;
+    margin-top: 20px;
+    max-width: 500px;
+    background: #fff4dc;
+    opacity: 0.7;
+}
+
+.fat {
+    font-weight: 600;
+}
+
+.start-div {
+    width: 100%;
+    clear: left;
+    margin-top: 6%;
+}
+
+.m-footer {
+    height: 50px;
+}
+
+@media screen and (min-width : 1024px) {
+    .m-help span {
+        font-size: 25px;
+    }
+    .m-view p {
+        font-size: 50px;
+    }
+    .m-help-div span {
+        font-size: 40px;
+        cursor: pointer;
+    }
+    .main-button {
+        height: 80px;
+        font-size: 60px;
+    }
+}

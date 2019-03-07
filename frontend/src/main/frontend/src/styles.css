@@ -1,0 +1,33 @@
+@import "~ng-pick-datetime/assets/style/picker.min.css";
+@import "~angular5-toaster/dist/toaster.css";
+
+body {
+    margin: 0;
+    background-image: url("assets/cute-heart-pattern-wallpaper-1.jpg");
+    background-size: cover;
+    font-family: "Comic Sans MS", "Marker Felt", sans-serif;
+}
+
+#router-outlet {
+    margin: 10px;
+}
+
+button {
+    border: solid 2px #592312;
+    border-radius: 5px;
+    height: 30px;
+    padding-bottom: 2px;
+    background: #ffe0e0;
+    color: #592312;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (min-width : 1024px) {
+    .toast-title {
+        font-size: 50px !important;
+    }
+    .toast {
+        width: 500px !important;
+    }
+}

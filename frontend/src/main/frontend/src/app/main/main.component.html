@@ -1,0 +1,27 @@
+<div class="m-view" align="center">
+    <p>Дорогие девушки! От всей души поздравляем вас с 8 марта! Желаем вам оставаться такими же замечательными, красивыми, etc. &#9786;</p>
+</div>
+<div class="m-help-div">
+    <span (click)="openHelp()">
+        <span class="m-underline" *ngIf="!isHelpOpen">Мне страшно</span>
+        <span class="m-underline" *ngIf="isHelpOpen">Мне больше не страшно</span>
+        <span *ngIf="!isHelpOpen">+</span>
+        <span *ngIf="isHelpOpen">-</span>
+    </span>
+</div>
+<div *ngIf="isHelpOpen" [@openHelp] class="m-help">
+    <ul>
+        <span class="fat">Добро пожаловать на наш небольшой квест!</span><br/>
+        <span>
+            Квест будет состоять из нескольких чекпоинтов. В конце каждого чекпоинта вы будете находить пароль.
+            Используйте его для перехода к следующему чекпоинту. Не забывайте требовать артефакты на чекпоинтах!
+            Просим вас складывайть все артефакты на стол в большую переговорную.
+        </span>
+    </ul>
+</div>
+
+<div class="start-div" align="center">
+    <button class="main-button" (click)="start()">Начать</button>
+</div>
+
+<div class="m-footer"></div>
