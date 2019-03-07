@@ -63,30 +63,30 @@ export class CheckpointComponent {
     }
 
     playApplauseSound() {
-        let audio = new Audio();
+        /*let audio = new Audio();
         audio.src = "../../assets/applause4.wav";
         audio.load();
-        audio.play();
+        audio.play();*/
     }
 
     playSuccessSound() {
-        let audio = new Audio();
+        /*let audio = new Audio();
         audio.src = "../../assets/small-bell-ring-01a.wav";
         audio.load();
-        audio.play();
+        audio.play();*/
     }
 
     playSheepSound() {
-        let audio = new Audio();
+        /*let audio = new Audio();
         audio.src = "../../assets/sheep-bah1.wav";
         audio.load();
-        audio.play();
+        audio.play();*/
     }
 
     playWrongSound() {
-        let audio = new Audio();
+        /*let audio = new Audio();
         audio.src = "../../assets/wrong-answer.wav";
         audio.load();
-        audio.play();
+        audio.play();*/
     }
 }
