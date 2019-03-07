@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <name>parent</name>
-    <description>Booking parent project</description>
+    <description>March8 parent project</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

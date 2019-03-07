@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('booking App', () => {
+describe('march8 App', () => {
   let page: AppPage;
 
   beforeEach(() => {
