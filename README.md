@@ -1,9 +1,8 @@
-This is Spring-Boot web application with Angular frontend and Postgres database.
+This is Spring-Boot web application with Angular frontend.
 
 Build steps:
-1. Create local database "zagnitko_booking" (it should be on localhost:5432 with username/password = postgres/postgres).
-2. Nagivate to base directory and execute "mvn clean install".
-3. Navigate to "backend" directory and execute "mvn spring-boot:run".
+1. Nagivate to base directory and execute "mvn clean install".
+2. Navigate to "backend" directory and execute "mvn spring-boot:run".
 
 If everything is OK, you'll be able to open the application at http://localhost:9090/
 
